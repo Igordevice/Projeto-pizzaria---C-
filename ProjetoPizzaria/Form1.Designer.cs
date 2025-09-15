@@ -36,7 +36,7 @@
             this.checkBorda = new System.Windows.Forms.CheckBox();
             this.checkCebola = new System.Windows.Forms.CheckBox();
             this.checkCatupiry = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkTempero = new System.Windows.Forms.CheckBox();
             this.cmbTamanho = new System.Windows.Forms.ComboBox();
             this.lblValor = new System.Windows.Forms.Label();
             this.lblValorOpt = new System.Windows.Forms.Label();
@@ -120,20 +120,20 @@
             this.checkCatupiry.AutoSize = true;
             this.checkCatupiry.Location = new System.Drawing.Point(6, 77);
             this.checkCatupiry.Name = "checkCatupiry";
-            this.checkCatupiry.Size = new System.Drawing.Size(80, 17);
+            this.checkCatupiry.Size = new System.Drawing.Size(102, 17);
             this.checkCatupiry.TabIndex = 7;
-            this.checkCatupiry.Text = "checkBox3";
+            this.checkCatupiry.Text = "Catupiry Original";
             this.checkCatupiry.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // checkTempero
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(6, 100);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(80, 17);
-            this.checkBox4.TabIndex = 8;
-            this.checkBox4.Text = "checkBox4";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkTempero.AutoSize = true;
+            this.checkTempero.Location = new System.Drawing.Point(6, 100);
+            this.checkTempero.Name = "checkTempero";
+            this.checkTempero.Size = new System.Drawing.Size(108, 17);
+            this.checkTempero.TabIndex = 8;
+            this.checkTempero.Text = "Tempero do Chef";
+            this.checkTempero.UseVisualStyleBackColor = true;
             // 
             // cmbTamanho
             // 
@@ -215,7 +215,7 @@
             // 
             this.gpbEscolha.Controls.Add(this.checkCebola);
             this.gpbEscolha.Controls.Add(this.checkCatupiry);
-            this.gpbEscolha.Controls.Add(this.checkBox4);
+            this.gpbEscolha.Controls.Add(this.checkTempero);
             this.gpbEscolha.Controls.Add(this.checkBorda);
             this.gpbEscolha.Location = new System.Drawing.Point(33, 104);
             this.gpbEscolha.Name = "gpbEscolha";
@@ -274,7 +274,7 @@
         private System.Windows.Forms.CheckBox checkBorda;
         private System.Windows.Forms.CheckBox checkCebola;
         private System.Windows.Forms.CheckBox checkCatupiry;
-        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkTempero;
         private System.Windows.Forms.ComboBox cmbTamanho;
         private System.Windows.Forms.Label lblValor;
         private System.Windows.Forms.Label lblValorOpt;
