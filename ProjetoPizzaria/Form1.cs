@@ -16,5 +16,50 @@ namespace ProjetoPizzaria
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbTitulo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chkTitulo_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTitulo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTitulo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTitulo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblValor_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblPagar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
