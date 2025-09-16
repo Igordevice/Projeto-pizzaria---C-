@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnNovo = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnCalcular = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             this.txtTitulo = new System.Windows.Forms.TextBox();
             this.checkBorda = new System.Windows.Forms.CheckBox();
             this.checkCebola = new System.Windows.Forms.CheckBox();
@@ -47,46 +47,46 @@
             this.lblPesquisar = new System.Windows.Forms.Label();
             this.txtPesquisar = new System.Windows.Forms.TextBox();
             this.gpbEscolha = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvPizza = new System.Windows.Forms.DataGridView();
             this.gpbEscolha.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPizza)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnNovo
             // 
-            this.button1.Location = new System.Drawing.Point(134, 397);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnNovo.Location = new System.Drawing.Point(134, 397);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(75, 23);
+            this.btnNovo.TabIndex = 0;
+            this.btnNovo.Text = "NOVO";
+            this.btnNovo.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnSalvar
             // 
-            this.button2.Location = new System.Drawing.Point(235, 397);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSalvar.Location = new System.Drawing.Point(235, 397);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(75, 23);
+            this.btnSalvar.TabIndex = 1;
+            this.btnSalvar.Text = "SALVAR";
+            this.btnSalvar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnCalcular
             // 
-            this.button3.Location = new System.Drawing.Point(353, 397);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCalcular.Location = new System.Drawing.Point(353, 397);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(75, 23);
+            this.btnCalcular.TabIndex = 2;
+            this.btnCalcular.Text = "CALCULAR";
+            this.btnCalcular.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnSair
             // 
-            this.button4.Location = new System.Drawing.Point(469, 397);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSair.Location = new System.Drawing.Point(469, 397);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(75, 23);
+            this.btnSair.TabIndex = 3;
+            this.btnSair.Text = "SAIR";
+            this.btnSair.UseVisualStyleBackColor = true;
             // 
             // txtTitulo
             // 
@@ -224,20 +224,20 @@
             this.gpbEscolha.TabStop = false;
             this.gpbEscolha.Text = "ESCOLHA OPCIONAIS";
             // 
-            // dataGridView1
+            // dgvPizza
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(54, 233);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(666, 150);
-            this.dataGridView1.TabIndex = 19;
+            this.dgvPizza.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPizza.Location = new System.Drawing.Point(54, 233);
+            this.dgvPizza.Name = "dgvPizza";
+            this.dgvPizza.Size = new System.Drawing.Size(666, 150);
+            this.dgvPizza.TabIndex = 19;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvPizza);
             this.Controls.Add(this.gpbEscolha);
             this.Controls.Add(this.txtPesquisar);
             this.Controls.Add(this.lblPesquisar);
@@ -249,16 +249,16 @@
             this.Controls.Add(this.lblValor);
             this.Controls.Add(this.cmbTamanho);
             this.Controls.Add(this.txtTitulo);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSair);
+            this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.btnSalvar);
+            this.Controls.Add(this.btnNovo);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.gpbEscolha.ResumeLayout(false);
             this.gpbEscolha.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPizza)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -266,10 +266,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnNovo;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.TextBox txtTitulo;
         private System.Windows.Forms.CheckBox checkBorda;
         private System.Windows.Forms.CheckBox checkCebola;
@@ -285,7 +285,7 @@
         private System.Windows.Forms.Label lblPesquisar;
         private System.Windows.Forms.TextBox txtPesquisar;
         private System.Windows.Forms.GroupBox gpbEscolha;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvPizza;
     }
 }
 
