@@ -63,7 +63,7 @@
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(235, 397);
+            this.btnSalvar.Location = new System.Drawing.Point(268, 397);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(75, 23);
             this.btnSalvar.TabIndex = 1;
@@ -72,7 +72,7 @@
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(353, 397);
+            this.btnCalcular.Location = new System.Drawing.Point(420, 397);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(75, 23);
             this.btnCalcular.TabIndex = 2;
@@ -81,7 +81,7 @@
             // 
             // btnSair
             // 
-            this.btnSair.Location = new System.Drawing.Point(469, 397);
+            this.btnSair.Location = new System.Drawing.Point(572, 397);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(75, 23);
             this.btnSair.TabIndex = 3;
@@ -90,7 +90,7 @@
             // 
             // txtTitulo
             // 
-            this.txtTitulo.Location = new System.Drawing.Point(68, 12);
+            this.txtTitulo.Location = new System.Drawing.Point(60, 12);
             this.txtTitulo.Name = "txtTitulo";
             this.txtTitulo.Size = new System.Drawing.Size(100, 20);
             this.txtTitulo.TabIndex = 4;
@@ -138,7 +138,7 @@
             // cmbTamanho
             // 
             this.cmbTamanho.FormattingEnabled = true;
-            this.cmbTamanho.Location = new System.Drawing.Point(68, 38);
+            this.cmbTamanho.Location = new System.Drawing.Point(60, 38);
             this.cmbTamanho.Name = "cmbTamanho";
             this.cmbTamanho.Size = new System.Drawing.Size(141, 21);
             this.cmbTamanho.TabIndex = 9;
@@ -166,7 +166,7 @@
             // lblPagar
             // 
             this.lblPagar.AutoSize = true;
-            this.lblPagar.Location = new System.Drawing.Point(628, 19);
+            this.lblPagar.Location = new System.Drawing.Point(617, 19);
             this.lblPagar.Name = "lblPagar";
             this.lblPagar.Size = new System.Drawing.Size(92, 13);
             this.lblPagar.TabIndex = 12;
@@ -217,7 +217,7 @@
             this.gpbEscolha.Controls.Add(this.checkCatupiry);
             this.gpbEscolha.Controls.Add(this.checkTempero);
             this.gpbEscolha.Controls.Add(this.checkBorda);
-            this.gpbEscolha.Location = new System.Drawing.Point(33, 104);
+            this.gpbEscolha.Location = new System.Drawing.Point(54, 104);
             this.gpbEscolha.Name = "gpbEscolha";
             this.gpbEscolha.Size = new System.Drawing.Size(176, 123);
             this.gpbEscolha.TabIndex = 18;
