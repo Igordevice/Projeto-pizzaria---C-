@@ -19,7 +19,9 @@ namespace ProjetoPizzaria
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            cmbTamanho.Items.Add("Pequena - R$20,00");
+            cmbTamanho.Items.Add("Média- R$ 30,00");
+            cmbTamanho.Items.Add("Grande- R$ 50,00");
         }
 
         private void cmbTitulo_SelectedIndexChanged(object sender, EventArgs e)
@@ -58,6 +60,11 @@ namespace ProjetoPizzaria
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvPizza_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

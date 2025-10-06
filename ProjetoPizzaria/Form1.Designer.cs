@@ -231,12 +231,13 @@
             this.dgvPizza.Name = "dgvPizza";
             this.dgvPizza.Size = new System.Drawing.Size(666, 150);
             this.dgvPizza.TabIndex = 19;
+            this.dgvPizza.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPizza_CellContentClick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(849, 523);
             this.Controls.Add(this.dgvPizza);
             this.Controls.Add(this.gpbEscolha);
             this.Controls.Add(this.txtPesquisar);
