@@ -32,7 +32,7 @@
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
-            this.txtTitulo = new System.Windows.Forms.TextBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
             this.checkBorda = new System.Windows.Forms.CheckBox();
             this.checkCebola = new System.Windows.Forms.CheckBox();
             this.checkCatupiry = new System.Windows.Forms.CheckBox();
@@ -69,6 +69,7 @@
             this.btnSalvar.TabIndex = 1;
             this.btnSalvar.Text = "SALVAR";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnCalcular
             // 
@@ -78,6 +79,7 @@
             this.btnCalcular.TabIndex = 2;
             this.btnCalcular.Text = "CALCULAR";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnSair
             // 
@@ -88,12 +90,12 @@
             this.btnSair.Text = "SAIR";
             this.btnSair.UseVisualStyleBackColor = true;
             // 
-            // txtTitulo
+            // txtCodigo
             // 
-            this.txtTitulo.Location = new System.Drawing.Point(60, 12);
-            this.txtTitulo.Name = "txtTitulo";
-            this.txtTitulo.Size = new System.Drawing.Size(100, 20);
-            this.txtTitulo.TabIndex = 4;
+            this.txtCodigo.Location = new System.Drawing.Point(60, 12);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(100, 20);
+            this.txtCodigo.TabIndex = 4;
             // 
             // checkBorda
             // 
@@ -210,6 +212,7 @@
             this.txtPesquisar.Name = "txtPesquisar";
             this.txtPesquisar.Size = new System.Drawing.Size(194, 20);
             this.txtPesquisar.TabIndex = 17;
+            this.txtPesquisar.TextChanged += new System.EventHandler(this.txtPesquisar_TextChanged_1);
             // 
             // gpbEscolha
             // 
@@ -232,6 +235,7 @@
             this.dgvPizza.Size = new System.Drawing.Size(666, 150);
             this.dgvPizza.TabIndex = 19;
             this.dgvPizza.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPizza_CellContentClick);
+            this.dgvPizza.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dgvPizza_MouseDoubleClick);
             // 
             // Form1
             // 
@@ -249,7 +253,7 @@
             this.Controls.Add(this.lblValorOpt);
             this.Controls.Add(this.lblValor);
             this.Controls.Add(this.cmbTamanho);
-            this.Controls.Add(this.txtTitulo);
+            this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.btnSalvar);
@@ -271,7 +275,7 @@
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnSair;
-        private System.Windows.Forms.TextBox txtTitulo;
+        private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.CheckBox checkBorda;
         private System.Windows.Forms.CheckBox checkCebola;
         private System.Windows.Forms.CheckBox checkCatupiry;
